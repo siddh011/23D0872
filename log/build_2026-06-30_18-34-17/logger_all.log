@@ -1,0 +1,242 @@
+[0.142s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.142s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x705ed48a7680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x705ed48a66f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x705ed48a66f0>>, mixin_verb=('build',))
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.191s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/siddharth/sor_ws2'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/bme_ros2_navigation' with type 'ros.ament_cmake' and name 'bme_ros2_navigation'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation_py) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation_py) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation_py) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation_py) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation_py) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation_py) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation_py) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation_py) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_navigation_py) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/bme_ros2_navigation_py' with type 'ros.ament_python' and name 'bme_ros2_navigation_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/mogi_trajectory_server) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/mogi_trajectory_server) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/mogi_trajectory_server) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/mogi_trajectory_server) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/mogi_trajectory_server) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/mogi_trajectory_server) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/mogi_trajectory_server) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/mogi_trajectory_server) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/mogi_trajectory_server) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/mogi_trajectory_server' with type 'ros.ament_python' and name 'mogi_trajectory_server'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/siddharth/sor_ws/install
+[0.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/siddharth/sor_ws2/install
+[0.256s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/siddharth/sor_ws1/install
+[0.256s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/siddharth/ros2_ws/install
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 396 installed packages in /opt/ros/jazzy
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'bme_ros2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddharth/sor_ws2/build/bme_ros2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddharth/sor_ws2/install/bme_ros2_navigation', 'merge_install': False, 'path': '/home/siddharth/sor_ws2/Session5/bme_ros2_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_navigation_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'bme_ros2_navigation_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddharth/sor_ws2/build/bme_ros2_navigation_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py', 'merge_install': False, 'path': '/home/siddharth/sor_ws2/Session5/bme_ros2_navigation_py', 'symlink_install': False, 'test_result_base': None}
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'mogi_trajectory_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddharth/sor_ws2/build/mogi_trajectory_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddharth/sor_ws2/install/mogi_trajectory_server', 'merge_install': False, 'path': '/home/siddharth/sor_ws2/Session5/mogi_trajectory_server', 'symlink_install': False, 'test_result_base': None}
+[0.333s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/siddharth/sor_ws2/Session5/bme_ros2_navigation' with build type 'ament_cmake'
+[0.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siddharth/sor_ws2/Session5/bme_ros2_navigation'
+[0.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siddharth/sor_ws2/Session5/bme_ros2_navigation_py' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation_py', 'ament_prefix_path')
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/ament_prefix_path.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/ament_prefix_path.dsv'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/ament_prefix_path.sh'
+[0.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siddharth/sor_ws2/Session5/mogi_trajectory_server' with build type 'ament_python'
+[0.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('mogi_trajectory_server', 'ament_prefix_path')
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.sh'
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws2/build/bme_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siddharth/sor_ws2/build/bme_ros2_navigation -- -j8 -l8
+[0.666s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siddharth/sor_ws2/Session5/bme_ros2_navigation_py'
+[0.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.967s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siddharth/sor_ws2/Session5/mogi_trajectory_server'
+[0.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws2/build/bme_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siddharth/sor_ws2/build/bme_ros2_navigation -- -j8 -l8
+[1.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws2/build/bme_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siddharth/sor_ws2/build/bme_ros2_navigation
+[1.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_navigation)
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws2/build/bme_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siddharth/sor_ws2/build/bme_ros2_navigation
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation' for CMake module files
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation' for CMake config files
+[1.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation', 'cmake_prefix_path')
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.ps1'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.sh'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation/bin'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation/lib/pkgconfig/bme_ros2_navigation.pc'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation/lib/python3.12/site-packages'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation/bin'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.ps1'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.sh'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.bash'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.zsh'
+[1.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/colcon-core/packages/bme_ros2_navigation)
+[1.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_navigation)
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation' for CMake module files
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation' for CMake config files
+[1.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation', 'cmake_prefix_path')
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.dsv'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/hook/cmake_prefix_path.sh'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation/bin'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation/lib/pkgconfig/bme_ros2_navigation.pc'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation/lib/python3.12/site-packages'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation/bin'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.sh'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.bash'
+[1.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/bme_ros2_navigation/package.zsh'
+[1.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws2/install/bme_ros2_navigation/share/colcon-core/packages/bme_ros2_navigation)
+[1.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws2/Session5/mogi_trajectory_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws2/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/siddharth/sor_ws2/build/mogi_trajectory_server/build install --record /home/siddharth/sor_ws2/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[1.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws2/Session5/bme_ros2_navigation_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws2/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme_ros2_navigation_py build --build-base /home/siddharth/sor_ws2/build/bme_ros2_navigation_py/build install --record /home/siddharth/sor_ws2/build/bme_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/mogi_trajectory_server' for CMake module files
+[2.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws2/Session5/mogi_trajectory_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws2/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/siddharth/sor_ws2/build/mogi_trajectory_server/build install --record /home/siddharth/sor_ws2/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/mogi_trajectory_server' for CMake config files
+[2.744s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/mogi_trajectory_server/lib'
+[2.744s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/mogi_trajectory_server/bin'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/pkgconfig/mogi_trajectory_server.pc'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/python3.12/site-packages'
+[2.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('mogi_trajectory_server', 'pythonpath')
+[2.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.ps1'
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.dsv'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.sh'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/mogi_trajectory_server/bin'
+[2.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mogi_trajectory_server)
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/package.ps1'
+[2.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/package.dsv'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/package.sh'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/package.bash'
+[2.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/mogi_trajectory_server/package.zsh'
+[2.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws2/install/mogi_trajectory_server/share/colcon-core/packages/mogi_trajectory_server)
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py' for CMake module files
+[2.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws2/Session5/bme_ros2_navigation_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws2/build/bme_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme_ros2_navigation_py build --build-base /home/siddharth/sor_ws2/build/bme_ros2_navigation_py/build install --record /home/siddharth/sor_ws2/build/bme_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py' for CMake config files
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/lib'
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/bin'
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/lib/pkgconfig/bme_ros2_navigation_py.pc'
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/lib/python3.12/site-packages'
+[2.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_navigation_py', 'pythonpath')
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/pythonpath.ps1'
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/pythonpath.dsv'
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/hook/pythonpath.sh'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/bin'
+[2.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_navigation_py)
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.ps1'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.dsv'
+[2.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.sh'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.bash'
+[2.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/bme_ros2_navigation_py/package.zsh'
+[2.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws2/install/bme_ros2_navigation_py/share/colcon-core/packages/bme_ros2_navigation_py)
+[2.776s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.777s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.777s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.777s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.785s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.785s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.785s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.822s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.822s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws2/install/local_setup.ps1'
+[2.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddharth/sor_ws2/install/_local_setup_util_ps1.py'
+[2.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws2/install/setup.ps1'
+[2.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws2/install/local_setup.sh'
+[2.835s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddharth/sor_ws2/install/_local_setup_util_sh.py'
+[2.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws2/install/setup.sh'
+[2.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws2/install/local_setup.bash'
+[2.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws2/install/setup.bash'
+[2.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws2/install/local_setup.zsh'
+[2.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws2/install/setup.zsh'
