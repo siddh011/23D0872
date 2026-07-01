@@ -1,9 +1,0 @@
-/home/siddharth/sor_ws1/build/bme_ros2_simple_arm/CMakeFiles/uninstall.dir
-/home/siddharth/sor_ws1/build/bme_ros2_simple_arm/CMakeFiles/bme_ros2_simple_arm_uninstall.dir
-/home/siddharth/sor_ws1/build/bme_ros2_simple_arm/CMakeFiles/test.dir
-/home/siddharth/sor_ws1/build/bme_ros2_simple_arm/CMakeFiles/edit_cache.dir
-/home/siddharth/sor_ws1/build/bme_ros2_simple_arm/CMakeFiles/rebuild_cache.dir
-/home/siddharth/sor_ws1/build/bme_ros2_simple_arm/CMakeFiles/list_install_components.dir
-/home/siddharth/sor_ws1/build/bme_ros2_simple_arm/CMakeFiles/install.dir
-/home/siddharth/sor_ws1/build/bme_ros2_simple_arm/CMakeFiles/install/local.dir
-/home/siddharth/sor_ws1/build/bme_ros2_simple_arm/CMakeFiles/install/strip.dir
