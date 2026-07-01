@@ -1,4 +1,0 @@
-Invoking command in '/home/siddharth/sor_ws2/build/bme_ros2_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siddharth/sor_ws2/build/bme_ros2_navigation -- -j8 -l8
-Invoked command in '/home/siddharth/sor_ws2/build/bme_ros2_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siddharth/sor_ws2/build/bme_ros2_navigation -- -j8 -l8
-Invoking command in '/home/siddharth/sor_ws2/build/bme_ros2_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siddharth/sor_ws2/build/bme_ros2_navigation
-Invoked command in '/home/siddharth/sor_ws2/build/bme_ros2_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siddharth/sor_ws2/build/bme_ros2_navigation
