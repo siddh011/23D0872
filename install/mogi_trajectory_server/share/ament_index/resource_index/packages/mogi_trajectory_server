@@ -1,6 +1,0 @@
-    trajectory_node = Node(
-        package='mogi_trajectory_server',
-        executable='mogi_trajectory_server',
-        name='mogi_trajectory_server',
-        parameters=[{'reference_frame_id': 'map'}]
-    )
