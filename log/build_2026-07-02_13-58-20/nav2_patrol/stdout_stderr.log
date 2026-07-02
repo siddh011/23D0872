@@ -1,0 +1,29 @@
+running egg_info
+creating ../../../build/nav2_patrol/nav2_patrol.egg-info
+writing ../../../build/nav2_patrol/nav2_patrol.egg-info/PKG-INFO
+writing dependency_links to ../../../build/nav2_patrol/nav2_patrol.egg-info/dependency_links.txt
+writing entry points to ../../../build/nav2_patrol/nav2_patrol.egg-info/entry_points.txt
+writing requirements to ../../../build/nav2_patrol/nav2_patrol.egg-info/requires.txt
+writing top-level names to ../../../build/nav2_patrol/nav2_patrol.egg-info/top_level.txt
+writing manifest file '../../../build/nav2_patrol/nav2_patrol.egg-info/SOURCES.txt'
+reading manifest file '../../../build/nav2_patrol/nav2_patrol.egg-info/SOURCES.txt'
+writing manifest file '../../../build/nav2_patrol/nav2_patrol.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/siddharth/sor_ws2/build/nav2_patrol/build
+creating /home/siddharth/sor_ws2/build/nav2_patrol/build/lib
+creating /home/siddharth/sor_ws2/build/nav2_patrol/build/lib/nav2_patrol
+copying nav2_patrol/patrol_waypoints.py -> /home/siddharth/sor_ws2/build/nav2_patrol/build/lib/nav2_patrol
+copying nav2_patrol/__init__.py -> /home/siddharth/sor_ws2/build/nav2_patrol/build/lib/nav2_patrol
+running install
+running install_lib
+creating /home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages/nav2_patrol
+copying /home/siddharth/sor_ws2/build/nav2_patrol/build/lib/nav2_patrol/patrol_waypoints.py -> /home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages/nav2_patrol
+copying /home/siddharth/sor_ws2/build/nav2_patrol/build/lib/nav2_patrol/__init__.py -> /home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages/nav2_patrol
+byte-compiling /home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages/nav2_patrol/patrol_waypoints.py to patrol_waypoints.cpython-312.pyc
+byte-compiling /home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages/nav2_patrol/__init__.py to __init__.cpython-312.pyc
+running install_egg_info
+Copying ../../../build/nav2_patrol/nav2_patrol.egg-info to /home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages/nav2_patrol-0.0.0-py3.12.egg-info
+running install_scripts
+Installing patrol_waypoints script to /home/siddharth/sor_ws2/install/nav2_patrol/lib/nav2_patrol
+writing list of installed files to '/home/siddharth/sor_ws2/build/nav2_patrol/install.log'

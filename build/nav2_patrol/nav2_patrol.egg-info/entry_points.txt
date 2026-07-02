@@ -1,0 +1,2 @@
+[console_scripts]
+patrol_node = nav2_patrol.patrol_node:main

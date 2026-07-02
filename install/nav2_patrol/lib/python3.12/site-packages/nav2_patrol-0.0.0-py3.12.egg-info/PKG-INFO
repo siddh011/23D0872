@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: nav2-patrol
+Version: 0.0.0
+Summary: Nav2 waypoint patrol
+Maintainer: siddharth
+Maintainer-email: you@example.com
+License: Apache License 2.0

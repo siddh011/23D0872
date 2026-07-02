@@ -1,0 +1,23 @@
+[1.424s] Invoking command in '/home/siddharth/sor_ws2/Session5/mogi_trajectory_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws2/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/siddharth/sor_ws2/build/mogi_trajectory_server/build install --record /home/siddharth/sor_ws2/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[1.711s] running egg_info
+[1.728s] writing ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/PKG-INFO
+[1.729s] writing dependency_links to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/dependency_links.txt
+[1.729s] writing entry points to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/entry_points.txt
+[1.729s] writing requirements to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/requires.txt
+[1.730s] writing top-level names to ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/top_level.txt
+[1.768s] reading manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[1.768s] adding license file 'LICENSE'
+[1.769s] writing manifest file '../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[1.770s] running build
+[1.770s] running build_py
+[1.770s] running install
+[1.780s] running install_lib
+[1.802s] running install_data
+[1.802s] running install_egg_info
+[1.824s] removing '/home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info' (and everything under it)
+[1.824s] Copying ../../build/mogi_trajectory_server/mogi_trajectory_server.egg-info to /home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info
+[1.825s] running install_scripts
+[1.973s] Installing mogi_trajectory_server script to /home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[1.973s] Installing mogi_trajectory_server_topic_based script to /home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[1.974s] writing list of installed files to '/home/siddharth/sor_ws2/build/mogi_trajectory_server/install.log'
+[2.049s] Invoked command in '/home/siddharth/sor_ws2/Session5/mogi_trajectory_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws2/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws2/install/mogi_trajectory_server/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/siddharth/sor_ws2/build/mogi_trajectory_server/build install --record /home/siddharth/sor_ws2/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data

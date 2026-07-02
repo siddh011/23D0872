@@ -1,0 +1,20 @@
+[5.736s] Invoking command in '/home/siddharth/sor_ws2/Session5/nav2_patrol': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws2/build/nav2_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_patrol build --build-base /home/siddharth/sor_ws2/build/nav2_patrol/build install --record /home/siddharth/sor_ws2/build/nav2_patrol/install.log --single-version-externally-managed
+[6.479s] running egg_info
+[6.533s] writing ../../build/nav2_patrol/nav2_patrol.egg-info/PKG-INFO
+[6.534s] writing dependency_links to ../../build/nav2_patrol/nav2_patrol.egg-info/dependency_links.txt
+[6.534s] writing entry points to ../../build/nav2_patrol/nav2_patrol.egg-info/entry_points.txt
+[6.535s] writing requirements to ../../build/nav2_patrol/nav2_patrol.egg-info/requires.txt
+[6.538s] writing top-level names to ../../build/nav2_patrol/nav2_patrol.egg-info/top_level.txt
+[6.655s] reading manifest file '../../build/nav2_patrol/nav2_patrol.egg-info/SOURCES.txt'
+[6.657s] writing manifest file '../../build/nav2_patrol/nav2_patrol.egg-info/SOURCES.txt'
+[6.659s] running build
+[6.659s] running build_py
+[6.660s] running install
+[6.672s] running install_lib
+[6.742s] running install_egg_info
+[6.814s] removing '/home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages/nav2_patrol-0.0.0-py3.12.egg-info' (and everything under it)
+[6.816s] Copying ../../build/nav2_patrol/nav2_patrol.egg-info to /home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages/nav2_patrol-0.0.0-py3.12.egg-info
+[6.819s] running install_scripts
+[7.218s] Installing patrol_node script to /home/siddharth/sor_ws2/install/nav2_patrol/lib/nav2_patrol
+[7.220s] writing list of installed files to '/home/siddharth/sor_ws2/build/nav2_patrol/install.log'
+[7.325s] Invoked command in '/home/siddharth/sor_ws2/Session5/nav2_patrol' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws2/build/nav2_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws2/install/nav2_patrol/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_patrol build --build-base /home/siddharth/sor_ws2/build/nav2_patrol/build install --record /home/siddharth/sor_ws2/build/nav2_patrol/install.log --single-version-externally-managed
