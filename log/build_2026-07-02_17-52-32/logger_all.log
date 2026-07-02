@@ -1,0 +1,306 @@
+[0.159s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.159s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a0d26bb43b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a0d26b8b350>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a0d26b8b350>>, mixin_verb=('build',))
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/siddharth/sor_ws1'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/bme_ros2_simple_arm' with type 'ros.ament_cmake' and name 'bme_ros2_simple_arm'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/bme_ros2_simple_arm_moveit_config' with type 'ros.ament_cmake' and name 'bme_ros2_simple_arm_moveit_config'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/bme_ros2_simple_arm_py' with type 'ros.ament_python' and name 'bme_ros2_simple_arm_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/custom_ik_arm' with type 'ros.ament_python' and name 'custom_ik_arm'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.287s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/siddharth/sor_ws1/Session5/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.288s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siddharth/sor_ws1/Session5/install/custom_ik_arm' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/siddharth/sor_ws1/install
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/siddharth/ros2_ws/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/siddharth/sor_ws2/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/siddharth/sor_ws/install
+[0.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 447 installed packages in /opt/ros/jazzy
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm' build argument 'cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm' build argument 'cmake_target' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'bme_ros2_simple_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm', 'merge_install': False, 'path': '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm', 'symlink_install': False, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_py' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_py' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'bme_ros2_simple_arm_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py', 'merge_install': False, 'path': '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm_py', 'symlink_install': False, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'custom_ik_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddharth/sor_ws1/build/custom_ik_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddharth/sor_ws1/install/custom_ik_arm', 'merge_install': False, 'path': '/home/siddharth/sor_ws1/Session5/custom_ik_arm', 'symlink_install': False, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'bme_ros2_simple_arm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'bme_ros2_simple_arm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config', 'merge_install': False, 'path': '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.384s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.386s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm' with build type 'ament_cmake'
+[0.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm'
+[0.389s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm_py' with build type 'ament_python'
+[0.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_simple_arm_py', 'ament_prefix_path')
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/hook/ament_prefix_path.ps1'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/hook/ament_prefix_path.dsv'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/hook/ament_prefix_path.sh'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siddharth/sor_ws1/Session5/custom_ik_arm' with build type 'ament_python'
+[0.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_ik_arm', 'ament_prefix_path')
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/ament_prefix_path.ps1'
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/ament_prefix_path.dsv'
+[0.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/ament_prefix_path.sh'
+[0.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddharth/sor_ws1/install/custom_ik_arm:/home/siddharth/sor_ws1/Session5/install/custom_ik_arm:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/nav2_patrol:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siddharth/sor_ws1/build/bme_ros2_simple_arm -- -j8 -l8
+[0.773s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm_py'
+[0.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.773s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddharth/sor_ws1/install/custom_ik_arm:/home/siddharth/sor_ws1/Session5/install/custom_ik_arm:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/nav2_patrol:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siddharth/sor_ws1/build/bme_ros2_simple_arm -- -j8 -l8
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddharth/sor_ws1/install/custom_ik_arm:/home/siddharth/sor_ws1/Session5/install/custom_ik_arm:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/nav2_patrol:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siddharth/sor_ws1/build/bme_ros2_simple_arm
+[1.140s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siddharth/sor_ws1/Session5/custom_ik_arm'
+[1.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_simple_arm)
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm' for CMake module files
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm' for CMake config files
+[1.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_simple_arm', 'cmake_prefix_path')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/hook/cmake_prefix_path.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/hook/cmake_prefix_path.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/lib/pkgconfig/bme_ros2_simple_arm.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/lib/python3.12/site-packages'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/bin'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.dsv'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.sh'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.bash'
+[1.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddharth/sor_ws1/install/custom_ik_arm:/home/siddharth/sor_ws1/Session5/install/custom_ik_arm:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/nav2_patrol:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siddharth/sor_ws1/build/bme_ros2_simple_arm
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.zsh'
+[1.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/colcon-core/packages/bme_ros2_simple_arm)
+[1.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_simple_arm)
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm' for CMake module files
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm' for CMake config files
+[1.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_simple_arm', 'cmake_prefix_path')
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/hook/cmake_prefix_path.ps1'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/hook/cmake_prefix_path.dsv'
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/hook/cmake_prefix_path.sh'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/bin'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/lib/pkgconfig/bme_ros2_simple_arm.pc'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/lib/python3.12/site-packages'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/bin'
+[1.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.dsv'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.sh'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.bash'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/bme_ros2_simple_arm/package.zsh'
+[1.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws1/install/bme_ros2_simple_arm/share/colcon-core/packages/bme_ros2_simple_arm)
+[1.505s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm_moveit_config' with build type 'ament_cmake'
+[1.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm_moveit_config'
+[1.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm_moveit_config': CMAKE_PREFIX_PATH=/home/siddharth/sor_ws1/install/bme_ros2_simple_arm:/home/siddharth/sor_ws/install/erc_gazebo_sensors:/home/siddharth/sor_ws2/install/bme_ros2_navigation:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config:/home/siddharth/ros2_ws/install/bme_gazebo_basics:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/siddharth/sor_ws1/install/custom_ik_arm:/home/siddharth/sor_ws1/Session5/install/custom_ik_arm:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/nav2_patrol:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siddharth/sor_ws1/build/bme_ros2_simple_arm_moveit_config -- -j8 -l8
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/siddharth/sor_ws1/install/bme_ros2_simple_arm:/home/siddharth/sor_ws/install/erc_gazebo_sensors:/home/siddharth/sor_ws2/install/bme_ros2_navigation:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config:/home/siddharth/ros2_ws/install/bme_gazebo_basics:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/siddharth/sor_ws1/install/custom_ik_arm:/home/siddharth/sor_ws1/Session5/install/custom_ik_arm:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/nav2_patrol:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siddharth/sor_ws1/build/bme_ros2_simple_arm_moveit_config -- -j8 -l8
+[1.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm_moveit_config': CMAKE_PREFIX_PATH=/home/siddharth/sor_ws1/install/bme_ros2_simple_arm:/home/siddharth/sor_ws/install/erc_gazebo_sensors:/home/siddharth/sor_ws2/install/bme_ros2_navigation:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config:/home/siddharth/ros2_ws/install/bme_gazebo_basics:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/siddharth/sor_ws1/install/custom_ik_arm:/home/siddharth/sor_ws1/Session5/install/custom_ik_arm:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/nav2_patrol:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siddharth/sor_ws1/build/bme_ros2_simple_arm_moveit_config
+[1.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_simple_arm_moveit_config)
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config' for CMake module files
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws1/build/bme_ros2_simple_arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/siddharth/sor_ws1/install/bme_ros2_simple_arm:/home/siddharth/sor_ws/install/erc_gazebo_sensors:/home/siddharth/sor_ws2/install/bme_ros2_navigation:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config:/home/siddharth/ros2_ws/install/bme_gazebo_basics:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/siddharth/sor_ws1/install/custom_ik_arm:/home/siddharth/sor_ws1/Session5/install/custom_ik_arm:/home/siddharth/sor_ws/install/trajectory_server:/home/siddharth/sor_ws/install/erc_gazebo_sensors_py:/home/siddharth/sor_ws2/install/nav2_patrol:/home/siddharth/sor_ws2/install/mogi_trajectory_server:/home/siddharth/sor_ws2/install/bme_ros2_navigation_py:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siddharth/sor_ws1/build/bme_ros2_simple_arm_moveit_config
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config' for CMake config files
+[1.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_simple_arm_moveit_config', 'cmake_prefix_path')
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/hook/cmake_prefix_path.ps1'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/hook/cmake_prefix_path.dsv'
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/hook/cmake_prefix_path.sh'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/bin'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/lib/pkgconfig/bme_ros2_simple_arm_moveit_config.pc'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/lib/python3.12/site-packages'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/bin'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.ps1'
+[1.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.dsv'
+[1.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.sh'
+[1.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.bash'
+[1.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.zsh'
+[1.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/colcon-core/packages/bme_ros2_simple_arm_moveit_config)
+[1.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_simple_arm_moveit_config)
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config' for CMake module files
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config' for CMake config files
+[1.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_simple_arm_moveit_config', 'cmake_prefix_path')
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/hook/cmake_prefix_path.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/hook/cmake_prefix_path.dsv'
+[1.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/hook/cmake_prefix_path.sh'
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/bin'
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/lib/pkgconfig/bme_ros2_simple_arm_moveit_config.pc'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/lib/python3.12/site-packages'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/bin'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.ps1'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.dsv'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.sh'
+[1.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.bash'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/bme_ros2_simple_arm_moveit_config/package.zsh'
+[1.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_moveit_config/share/colcon-core/packages/bme_ros2_simple_arm_moveit_config)
+[2.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws1/build/bme_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme_ros2_simple_arm_py build --build-base /home/siddharth/sor_ws1/build/bme_ros2_simple_arm_py/build install --record /home/siddharth/sor_ws1/build/bme_ros2_simple_arm_py/install.log --single-version-externally-managed install_data
+[2.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws1/Session5/custom_ik_arm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws1/build/custom_ik_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_ik_arm build --build-base /home/siddharth/sor_ws1/build/custom_ik_arm/build install --record /home/siddharth/sor_ws1/build/custom_ik_arm/install.log --single-version-externally-managed install_data
+[3.175s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py' for CMake module files
+[3.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws1/Session5/bme_ros2_simple_arm_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws1/build/bme_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bme_ros2_simple_arm_py build --build-base /home/siddharth/sor_ws1/build/bme_ros2_simple_arm_py/build install --record /home/siddharth/sor_ws1/build/bme_ros2_simple_arm_py/install.log --single-version-externally-managed install_data
+[3.177s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py' for CMake config files
+[3.179s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/lib'
+[3.180s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/bin'
+[3.180s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/lib/pkgconfig/bme_ros2_simple_arm_py.pc'
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/lib/python3.12/site-packages'
+[3.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme_ros2_simple_arm_py', 'pythonpath')
+[3.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/hook/pythonpath.ps1'
+[3.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/hook/pythonpath.dsv'
+[3.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/hook/pythonpath.sh'
+[3.186s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/bin'
+[3.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme_ros2_simple_arm_py)
+[3.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/package.ps1'
+[3.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/package.dsv'
+[3.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/package.sh'
+[3.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/package.bash'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/bme_ros2_simple_arm_py/package.zsh'
+[3.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws1/install/bme_ros2_simple_arm_py/share/colcon-core/packages/bme_ros2_simple_arm_py)
+[3.548s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm' for CMake module files
+[3.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws1/Session5/custom_ik_arm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws1/build/custom_ik_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_ik_arm build --build-base /home/siddharth/sor_ws1/build/custom_ik_arm/build install --record /home/siddharth/sor_ws1/build/custom_ik_arm/install.log --single-version-externally-managed install_data
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm' for CMake config files
+[3.550s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/lib'
+[3.550s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/bin'
+[3.551s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/lib/pkgconfig/custom_ik_arm.pc'
+[3.551s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages'
+[3.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_ik_arm', 'pythonpath')
+[3.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/pythonpath.ps1'
+[3.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/pythonpath.dsv'
+[3.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/pythonpath.sh'
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/bin'
+[3.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_ik_arm)
+[3.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.ps1'
+[3.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.dsv'
+[3.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.sh'
+[3.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.bash'
+[3.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.zsh'
+[3.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws1/install/custom_ik_arm/share/colcon-core/packages/custom_ik_arm)
+[3.557s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.558s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.567s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.567s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.567s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.583s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.584s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws1/install/local_setup.ps1'
+[3.585s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddharth/sor_ws1/install/_local_setup_util_ps1.py'
+[3.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws1/install/setup.ps1'
+[3.590s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws1/install/local_setup.sh'
+[3.591s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddharth/sor_ws1/install/_local_setup_util_sh.py'
+[3.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws1/install/setup.sh'
+[3.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws1/install/local_setup.bash'
+[3.597s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws1/install/setup.bash'
+[3.599s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws1/install/local_setup.zsh'
+[3.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws1/install/setup.zsh'

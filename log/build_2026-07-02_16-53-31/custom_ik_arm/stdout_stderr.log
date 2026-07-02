@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/custom_ik_arm/custom_ik_arm.egg-info
+writing ../../build/custom_ik_arm/custom_ik_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom_ik_arm/custom_ik_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/custom_ik_arm/custom_ik_arm.egg-info/entry_points.txt
+writing requirements to ../../build/custom_ik_arm/custom_ik_arm.egg-info/requires.txt
+writing top-level names to ../../build/custom_ik_arm/custom_ik_arm.egg-info/top_level.txt
+writing manifest file '../../build/custom_ik_arm/custom_ik_arm.egg-info/SOURCES.txt'
+reading manifest file '../../build/custom_ik_arm/custom_ik_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/custom_ik_arm/custom_ik_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/siddharth/sor_ws1/build/custom_ik_arm/build
+creating /home/siddharth/sor_ws1/build/custom_ik_arm/build/lib
+creating /home/siddharth/sor_ws1/build/custom_ik_arm/build/lib/custom_ik_arm
+copying custom_ik_arm/__init__.py -> /home/siddharth/sor_ws1/build/custom_ik_arm/build/lib/custom_ik_arm
+copying custom_ik_arm/ik_trajectory.py -> /home/siddharth/sor_ws1/build/custom_ik_arm/build/lib/custom_ik_arm
+running install
+running install_lib
+creating /home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages/custom_ik_arm
+copying /home/siddharth/sor_ws1/build/custom_ik_arm/build/lib/custom_ik_arm/__init__.py -> /home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages/custom_ik_arm
+copying /home/siddharth/sor_ws1/build/custom_ik_arm/build/lib/custom_ik_arm/ik_trajectory.py -> /home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages/custom_ik_arm
+byte-compiling /home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages/custom_ik_arm/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages/custom_ik_arm/ik_trajectory.py to ik_trajectory.cpython-312.pyc
+running install_data
+creating /home/siddharth/sor_ws1/install/custom_ik_arm/share/ament_index
+creating /home/siddharth/sor_ws1/install/custom_ik_arm/share/ament_index/resource_index
+creating /home/siddharth/sor_ws1/install/custom_ik_arm/share/ament_index/resource_index/packages
+copying resource/custom_ik_arm -> /home/siddharth/sor_ws1/install/custom_ik_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm
+running install_egg_info
+Copying ../../build/custom_ik_arm/custom_ik_arm.egg-info to /home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages/custom_ik_arm-0.0.0-py3.12.egg-info
+running install_scripts
+Installing ik_trajectory script to /home/siddharth/sor_ws1/install/custom_ik_arm/lib/custom_ik_arm
+writing list of installed files to '/home/siddharth/sor_ws1/build/custom_ik_arm/install.log'

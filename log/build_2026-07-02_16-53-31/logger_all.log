@@ -1,0 +1,165 @@
+[0.146s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'custom_ik_arm']
+[0.146s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['custom_ik_arm'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f1b2088fef0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1b2088ce90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1b2088ce90>>, mixin_verb=('build',))
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.196s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/siddharth/sor_ws1'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(Session5) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/bme_ros2_simple_arm' with type 'ros.ament_cmake' and name 'bme_ros2_simple_arm'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_moveit_config) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/bme_ros2_simple_arm_moveit_config' with type 'ros.ament_cmake' and name 'bme_ros2_simple_arm_moveit_config'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/bme_ros2_simple_arm_py) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/bme_ros2_simple_arm_py' with type 'ros.ament_python' and name 'bme_ros2_simple_arm_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(Session5/custom_ik_arm) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'Session5/custom_ik_arm' with type 'ros.ament_python' and name 'custom_ik_arm'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.263s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bme_ros2_simple_arm' in 'Session5/bme_ros2_simple_arm'
+[0.263s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bme_ros2_simple_arm_py' in 'Session5/bme_ros2_simple_arm_py'
+[0.263s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bme_ros2_simple_arm_moveit_config' in 'Session5/bme_ros2_simple_arm_moveit_config'
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.265s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/siddharth/sor_ws1/Session5/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.265s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siddharth/sor_ws1/Session5/install/custom_ik_arm' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/siddharth/sor_ws2/install
+[0.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/siddharth/sor_ws1/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/siddharth/ros2_ws/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/siddharth/sor_ws/install
+[0.273s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 446 installed packages in /opt/ros/jazzy
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'custom_ik_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'custom_ik_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddharth/sor_ws1/build/custom_ik_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddharth/sor_ws1/install/custom_ik_arm', 'merge_install': False, 'path': '/home/siddharth/sor_ws1/Session5/custom_ik_arm', 'symlink_install': False, 'test_result_base': None}
+[0.354s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.355s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.356s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siddharth/sor_ws1/Session5/custom_ik_arm' with build type 'ament_python'
+[0.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_ik_arm', 'ament_prefix_path')
+[0.360s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/ament_prefix_path.ps1'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/ament_prefix_path.dsv'
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/ament_prefix_path.sh'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.705s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siddharth/sor_ws1/Session5/custom_ik_arm'
+[0.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddharth/sor_ws1/Session5/custom_ik_arm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws1/build/custom_ik_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_ik_arm build --build-base /home/siddharth/sor_ws1/build/custom_ik_arm/build install --record /home/siddharth/sor_ws1/build/custom_ik_arm/install.log --single-version-externally-managed install_data
+[2.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddharth/sor_ws1/Session5/custom_ik_arm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws1/build/custom_ik_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_ik_arm build --build-base /home/siddharth/sor_ws1/build/custom_ik_arm/build install --record /home/siddharth/sor_ws1/build/custom_ik_arm/install.log --single-version-externally-managed install_data
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm' for CMake module files
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm' for CMake config files
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/lib'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/bin'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/lib/pkgconfig/custom_ik_arm.pc'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages'
+[2.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_ik_arm', 'pythonpath')
+[2.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/pythonpath.ps1'
+[2.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/pythonpath.dsv'
+[2.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/hook/pythonpath.sh'
+[2.498s] Level 1:colcon.colcon_core.environment:checking '/home/siddharth/sor_ws1/install/custom_ik_arm/bin'
+[2.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_ik_arm)
+[2.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.ps1'
+[2.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.dsv'
+[2.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.sh'
+[2.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.bash'
+[2.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddharth/sor_ws1/install/custom_ik_arm/share/custom_ik_arm/package.zsh'
+[2.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddharth/sor_ws1/install/custom_ik_arm/share/colcon-core/packages/custom_ik_arm)
+[2.503s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.504s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.539s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.557s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws1/install/local_setup.ps1'
+[2.559s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddharth/sor_ws1/install/_local_setup_util_ps1.py'
+[2.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws1/install/setup.ps1'
+[2.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws1/install/local_setup.sh'
+[2.562s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddharth/sor_ws1/install/_local_setup_util_sh.py'
+[2.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws1/install/setup.sh'
+[2.565s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws1/install/local_setup.bash'
+[2.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws1/install/setup.bash'
+[2.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddharth/sor_ws1/install/local_setup.zsh'
+[2.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddharth/sor_ws1/install/setup.zsh'

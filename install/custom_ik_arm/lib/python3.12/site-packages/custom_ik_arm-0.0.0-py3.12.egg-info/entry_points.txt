@@ -1,0 +1,3 @@
+[console_scripts]
+ik_trajectory = custom_ik_arm.ik_trajectory:main
+trajectory_publisher = custom_ik_arm.trajectory_publisher:main

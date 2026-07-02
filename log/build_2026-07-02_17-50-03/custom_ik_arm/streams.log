@@ -1,0 +1,22 @@
+[1.824s] Invoking command in '/home/siddharth/sor_ws1/Session5/custom_ik_arm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws1/build/custom_ik_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_ik_arm build --build-base /home/siddharth/sor_ws1/build/custom_ik_arm/build install --record /home/siddharth/sor_ws1/build/custom_ik_arm/install.log --single-version-externally-managed install_data
+[2.262s] running egg_info
+[2.294s] writing ../../build/custom_ik_arm/custom_ik_arm.egg-info/PKG-INFO
+[2.295s] writing dependency_links to ../../build/custom_ik_arm/custom_ik_arm.egg-info/dependency_links.txt
+[2.296s] writing entry points to ../../build/custom_ik_arm/custom_ik_arm.egg-info/entry_points.txt
+[2.296s] writing requirements to ../../build/custom_ik_arm/custom_ik_arm.egg-info/requires.txt
+[2.296s] writing top-level names to ../../build/custom_ik_arm/custom_ik_arm.egg-info/top_level.txt
+[2.364s] reading manifest file '../../build/custom_ik_arm/custom_ik_arm.egg-info/SOURCES.txt'
+[2.365s] writing manifest file '../../build/custom_ik_arm/custom_ik_arm.egg-info/SOURCES.txt'
+[2.365s] running build
+[2.365s] running build_py
+[2.366s] running install
+[2.375s] running install_lib
+[2.410s] running install_data
+[2.410s] running install_egg_info
+[2.444s] removing '/home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages/custom_ik_arm-0.0.0-py3.12.egg-info' (and everything under it)
+[2.445s] Copying ../../build/custom_ik_arm/custom_ik_arm.egg-info to /home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages/custom_ik_arm-0.0.0-py3.12.egg-info
+[2.446s] running install_scripts
+[2.664s] Installing ik_trajectory script to /home/siddharth/sor_ws1/install/custom_ik_arm/lib/custom_ik_arm
+[2.664s] Installing trajectory_publisher script to /home/siddharth/sor_ws1/install/custom_ik_arm/lib/custom_ik_arm
+[2.665s] writing list of installed files to '/home/siddharth/sor_ws1/build/custom_ik_arm/install.log'
+[2.733s] Invoked command in '/home/siddharth/sor_ws1/Session5/custom_ik_arm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/siddharth/sor_ws1/build/custom_ik_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddharth/sor_ws1/install/custom_ik_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_ik_arm build --build-base /home/siddharth/sor_ws1/build/custom_ik_arm/build install --record /home/siddharth/sor_ws1/build/custom_ik_arm/install.log --single-version-externally-managed install_data
